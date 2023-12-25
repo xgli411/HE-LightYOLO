@@ -1,2 +1,2 @@
-# TCENet
-An efficient and lightweight detection network for steel surface defects
+# HEL-YOLO
+An highly efficient and lightweight YOLO for steel surface defects detection
