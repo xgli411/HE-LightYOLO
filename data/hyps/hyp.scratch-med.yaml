@@ -1,0 +1,34 @@
+# YOLOv5 🚀 by Ultralytics, AGPL-3.0 license
+# Hyperparameters for medium-augmentation COCO training from scratch
+# python train.py --batch 32 --cfg yolov5m6.yaml --weights '' --data coco.yaml --img 1280 --epochs 300
+# See tutorials for hyperparameter evolution https://github.com/ultralytics/yolov5#tutorials
+
+lr0: 0.01  # initial learning rate (SGD=1E-2, Adam=1E-3)初始化学习率
+lrf: 0.1  # OneCycleLR学习率的最终比例，默认值为0.1。即最终的学习率将是lr0 * lrf
+momentum: 0.937  # SGD momentum/Adam beta1 SGD动量/Adam beta1
+weight_decay: 0.0005  # 优化器权重衰减系数，默认值为0.0005
+warmup_epochs: 3.0  # 预热轮数，默认值为3.0。在这些轮之前使用较低的学习率，并逐渐增加到正常的学习率以避免过拟合
+warmup_momentum: 0.8  # 预热时的初始动量，默认值为0.8
+warmup_bias_lr: 0.1  # 预热时的初始偏置学习率，默认值为0.1
+box: 0.05  # box损失增益，默认值为0.05
+cls: 0.3  # cls损失增益，默认值为0.3
+cls_pw: 1.0  # cls二分交叉熵损失的正例权重，默认值为1.0
+obj: 0.7  # obj损失增益，默认值为0.7。obj损失通常占总损失的大部分，因此其增益要比box和cls更大
+obj_pw: 1.0  # obj二分交叉熵损失的正例权重，默认值为1.0
+iou_t: 0.20  # IoU（交并比）的训练阈值，默认值为0.20。小于此阈值的预测框将被视为假阳性，大于此阈值的预测框将被视为真阳性
+anchor_t: 4.0  # 锚定框多倍阈值，默认值为4.0。当预测框与锚定框的IoU超过该阈值时，预测框将被视为正样本
+# anchors: 3  # anchors per output layer (0 to ignore)
+fl_gamma: 0.0  # focal loss的参数gamma值，默认值为0.0
+hsv_h: 0.015  # 图像HSV色调增强，默认值为0.015
+hsv_s: 0.7  # 图像HSV饱和度增强，默认值为0.7
+hsv_v: 0.4  # 图像HSV饱和度增强，默认值为0.7
+degrees: 0.0  # 图像旋转角度，默认值为0.0
+translate: 0.1  # 图像平移比例，默认值为0.1
+scale: 0.9  # 图像缩放比例，默认值为0.9
+shear: 0.0  # 图像剪切角度，默认值为0.0
+perspective: 0.0  # 图像透视变换比例，默认值为0.0。该参数用于在图像中添加透视效果
+flipud: 0.0  # 图像上下翻转的概率，默认值为0.0
+fliplr: 0.5  # 图像左右翻转的概率，默认值为0.5
+mosaic: 1.0  # 图像马赛克处理的概率，默认值为1.0
+mixup: 0.1  # 图像MixUp处理的概率，默认值为0.1
+copy_paste: 0.0  # 分割剪切粘贴的概率，默认值为0.0
