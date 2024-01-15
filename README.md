@@ -1,8 +1,8 @@
-# HEL-YOLO
+# HE-LightYOLO
 An highly efficient and lightweight YOLO for steel surface defects detection
 
 ## Introduction
-Here is the structure of the forthcoming HEL-YOLO.
+Here is the structure of the forthcoming HE-LightYOLO.
 <img src="assets/HEL-YOLO.png">
 
 ## :open_file_folder: Dataset and Weight
