@@ -1,5 +1,6 @@
 # HE-LightYOLO
 ⚠ Warning: This paper is under review, may not reprint any content!!!
+
 An highly efficient and lightweight YOLO for steel surface defects detection.
 
 ## Introduction
