@@ -343,7 +343,7 @@ def parse_opt():
     parser.add_argument('--weights', nargs='+', type=str, default=ROOT / '', help='runs/train/exp/weights/best.pt')
     parser.add_argument('--batch-size', type=int, default=1, help='batch size')
     parser.add_argument('--imgsz', '--img', '--img-size', type=int, default=640, help='inference size (pixels)')
-    parser.add_argument('--conf-thres', type=float, default=0.001, help='置信度阈值，低于此阈值的预测框将被过滤掉')
+    parser.add_argument('--conf-thres', type=float, default=0.001, help='')
     parser.add_argument('--iou-thres', type=float, default=0.5, help='NMS非极大值抑制时的IoU阈值')
     parser.add_argument('--max-det', type=int, default=100, help='每张图片最多检测出的目标数')
     parser.add_argument('--task', default='test', help='train, val, test, speed or study, 测试任务类型')
