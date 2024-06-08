@@ -1,5 +1,5 @@
 # HE-LightYOLO   
-Paper: An highly efficient and lightweight YOLO for steel surface defects detection.
+Paper: A highly efficient and lightweight YOLO for steel surface defects detection.
 
 ## Introduction
 Here is the structure of the forthcoming HE-LightYOLO.
