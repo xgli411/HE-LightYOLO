@@ -1,6 +1,5 @@
-⚠ Warning: This paper is under review, may not reprint any content!!!
 # HE-LightYOLO   
-An highly efficient and lightweight YOLO for steel surface defects detection.
+Paper: An highly efficient and lightweight YOLO for steel surface defects detection.
 
 ## Introduction
 Here is the structure of the forthcoming HE-LightYOLO.
