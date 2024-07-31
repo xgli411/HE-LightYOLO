@@ -1,7 +1,7 @@
 # HE-LightYOLO   
 Paper: A highly efficient and lightweight YOLO for steel surface defects detection.
 
-## :open_file_folder: Dataset and Weight
+## :open_file_folder: Dataset
 [Google Drive](https://drive.google.com/drive/folders/1il-h-ijcIpq4LUIcwOvegy7BqeBCabf9?usp=drive_link)
 [Google Drive](https://drive.google.com/drive/folders/1A0UFpEhH_Wa98OvncSeX5IXnuCNOyF-J?usp=drive_link)
 
