@@ -19,7 +19,7 @@ PR result plot on GC10-DET
 
 ## Cite this article
 
-🔗🔗Paper link：http://link-springer-com-s.vpn.tiangong.edu.cn:8118/article/10.1007/s10921-024-01084-7
+🔗🔗Paper link：https://link.springer.com/article/10.1007/s10921-024-01084-7
 
 Xu C, Li J, Li X. A highly efficient and lightweight detection method for steel surface defect[J]. Journal of Nondestructive Evaluation, 2024, 43(3): 71.
 
